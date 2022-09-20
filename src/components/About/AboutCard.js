@@ -10,8 +10,6 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Kaviyarasan </span>
             from <span className="purple"> Kallakurichi, Tamil Nadu, India.</span>
-            <br />
-            <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
