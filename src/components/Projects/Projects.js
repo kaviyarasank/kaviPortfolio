@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="ReviewMyBoss"
               description="Post a feedback for manager or about the company by the employee."
-              demoLink="https://reviewmyboss.netlify.com/"
+              // demoLink="https://reviewmyboss.netlify.com/"
             />
           </Col>
 
@@ -64,7 +64,7 @@ function Projects() {
               isBlog={false}
               title="E-Commerce(Shopping)"
               description="It is a shopping website like flipcart or amazon."
-              demoLink="https://e-commercedomain.vercel.app/"
+              // demoLink="https://e-commercedomain.vercel.app/"
             />
           </Col>
         </Row>
