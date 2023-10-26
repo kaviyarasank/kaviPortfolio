@@ -69,13 +69,15 @@ function AlertDialogSlide() {
     <div>
       <div>
         <a
-          onClick={handleClickOpen}
+          // onClick={handleClickOpen}
           class="whatsapp_float"
-          target="_blank"
+          href="https://wa.me/6383285528" target='_blank'
           rel="noopener noreferrer"
         >
           <i class="fa fa-whatsapp whatsapp-icon"></i>
         </a>
+
+        {/* <a href="https://api.whatsapp.com/send?phone=1234567890" target='_blank'>Contact Us on WhatsApp</a> */}
       </div>
       <Dialog
         open={open}

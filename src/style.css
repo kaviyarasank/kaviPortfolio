@@ -544,8 +544,8 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
-  padding-bottom: 30px !important;
+  /* padding-top: 150px !important; */
+  /* padding-bottom: 30px !important; */
   background-image: var(--section-background-color) !important;
   color: white !important;
 }
@@ -744,5 +744,6 @@ button:focus {
 .HomeKaviImg{
   height: 300px;
   width: 240px;
-  border-radius: 50px;
+  border-radius: 20px;
+  object-fit: cover;
 }

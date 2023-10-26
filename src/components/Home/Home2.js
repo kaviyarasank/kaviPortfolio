@@ -1,13 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/kavi.jpg";
+import myImg from "../../Assets/kavi.jpeg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+
 
 function Home2() {
   return (
@@ -19,36 +14,34 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              Around 3 Years of Experience in Software Engineering with various
+              domains, open source technologies, analyzing user needs and
+              designing, constructing, and testing end-user applications.
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> React js, Typescript </b>
+                <b className="purple"> React js, Typescript, Redux, RTK Query, Next js, React Native </b>
               </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Applications </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning.
-                </b>
-              </i>
+
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
               with <b className="purple">React.js</b> and
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and {" "}
-                </b>
+                <b className="purple"> Modern Javascript Library and </b>
               </i>
               <i>
-                <b className="purple">Bootstrap , Material UI and AntDesign</b>
+                <b className="purple">Bootstrap , Material UI, Tailwind CSS and AntDesign</b>
               </i>
+              <br />
+              <br />
+              My field of Interest's are building new &nbsp;
+              <i>
+                <b className="purple">Web Applications </b> and also in areas
+                related to <b className="purple">Deep Learning.</b>
+              </i>
+             
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -57,56 +50,7 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
-        <Row>
-          <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/kaviyarasank"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/kaviyarasan-k-221540221/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/kavi_official7/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
-            </ul>
-          </Col>
-        </Row>
+      
       </Container>
     </Container>
   );

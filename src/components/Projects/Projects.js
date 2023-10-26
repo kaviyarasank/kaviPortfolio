@@ -8,6 +8,9 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/Chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import Speak from "../../Assets/speak.png"
+import Acmec from "../../Assets/acmec.png"
+import Tracer from "../../Assets/tracer.png"
 
 function Projects() {
   return (
@@ -46,6 +49,35 @@ function Projects() {
               isBlog={false}
               title="Mercentrade Money"
               description="It is Fintech-Domain(Money Tranaction platform admin panel).Used role based autherization. "
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Speak}
+              isBlog={false}
+              title="SpeakApp"
+              description="Speak is an Online learning platform where students can create a profile,
+              option for the language which they are interested to learn and also should select a language in
+              which they are fluent, ask a question or raise their doubts, and can see the active tutor and
+              make a call"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Acmec}
+              isBlog={false}
+              title="ACMEC"
+              description="We developed a donation Web application for temple, which can be accessed
+              through Web or mobile browsers"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Tracer}
+              isBlog={false}
+              title="TRACER"
+              description="Tracer is a powerful application meticulously designed to streamline and enhance
+              the process of tracking and managing shipping containers."
             />
           </Col>
 
